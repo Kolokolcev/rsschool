@@ -10,7 +10,8 @@
 - GitHub on beginner level
 
 *Code examples*:
-'''var N = prompt();
+```
+var N = prompt();
 var b = 0;
 var elem = document.querySelector("#tableb");
 var table = document.createElement("table");
@@ -33,7 +34,8 @@ for(var i = 0; i < N; i++){
 }
 elem.appendChild(table);
 
-console.log(5 % 2);'''
+console.log(5 % 2);
+```
 
 **Education**: Peter the Great St. Petersburg Polytechnic University, online-courses HTML&CSS and JS
 
