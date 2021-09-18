@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>RSSCHOOL-CV</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Nikita Kolokoltsev</h1>
+        <div class="line"></div>
+        <h2><a href="https://www.google.ru/">nikitakolokoltsev1@gmail.com</a></h2>
+        <div class="line"></div>    
+        <p><b>My goal</b> is to become a website developer. <b>Strengths:</b> punctuality and perseverance. 
+        I have no work experience, but I would like to have it.
+        I am able to quickly learn and perceive the information reported to me.</p>
+        <b>Skills:</b>
+        <ul>
+            <li>HTML&CSS</li>
+            <li>JavaScript on beginner level</li>
+            <li>GitHub on beginner level</li>
+        </ul>
+        <i>Code examples:</i>
+        <pre>
+        N = prompt();
+        var b = 0;
+        var elem = document.querySelector("#tableb");
+        var table = document.createElement("table");
+        
+        for(var i = 0; i &lt; N; i++){
+            var tr = table.insertRow(i);
+            for(var j = 0; j &lt; N; j++){
+                var td = tr.insertCell(j);
+                td.innerHTML = b;
+                tr.appendChild(td);
+            }
+            if(i % 2){
+                tr.style.backgroundColor = 'red';
+            }
+            else{
+                tr.style.backgroundColor = 'green';
+            }
+            table.appendChild(tr);
+            b = b + 1;
+        }
+        elem.appendChild(table);
+        
+        console.log(5 % 2); </pre>
+
+        <p><b>Education:</b> Peter the Great St. Petersburg Polytechnic University, online-courses HTML&CSS and JS</p>
+        <p><b>level of english language</b> - A2 Pre-Intermediate.</p>
+    </div>
+
+    
+    
+</body>
+</html>
